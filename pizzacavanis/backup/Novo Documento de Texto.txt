@@ -1,0 +1,124 @@
+-------------------------
+[INICIO MENU]
+
+[logo tipo]
+Cardápio
+Nossa História
+Inscreva-se
+
+Faça um pedido
+(93) 3518-5544
+
+[FIM MENU]
+
+-------------------------
+[INICIO SLIDE]
+
+[AQUI ENTRA O SLIDE]
+
+[FIM SLIDE]
+
+-------------------------
+[INICIO CARDAPIO]
+
+Comum
+Premium
+Supreme
+
+[AQUI ENTRA IMAGEM]
+Mussarela
+Molho de tomate e mussarela
+R$ 30,00
+
+[AQUI ENTRA IMAGEM]
+Calabresa
+Molho de tomate, mussarela, calabresa e cebola
+R$ 30,00
+
+
+[AQUI ENTRA IMAGEM]
+Pepperoni
+Molho de tomate, mussarela e pepperoni
+R$ 30,00
+
+[AQUI ENTRA IMAGEM]
+Portuguesa
+Molho de tomate e mussarela, ovos, pimentão e azeitona
+R$ 36,00
+
+[AQUI ENTRA IMAGEM]
+Estrogonofe
+Molho de tomate, mussarela, carne, estrogonofe e batata
+R$ 36,00
+
+
+[AQUI ENTRA IMAGEM]
+Atum
+Molho de tomate, mussarela, atum, azeitona e cebola
+R$ 36,00
+
+
+[AQUI ENTRA IMAGEM]
+Primavera
+Molho de tomate, milho, pimentão e  azeitona
+R$ 42,00
+
+
+[AQUI ENTRA IMAGEM]
+Quatro Queijos
+Molho de tomate,  queijos e tomate
+R$ 42,00
+
+
+[AQUI ENTRA IMAGEM]
+Chocolate
+Calda de chocolate, morango e corbeturas de chocolate
+R$ 42,00
+
+[FIM CARDAPIO]
+
+-------------------------
+[INICIO NOSSA HISTÓRIA]
+
+Nossa História
+
+Somos uma empresa familiar de primeira geração criada em 1972.  Descendentes de Italianos, sempres fomos apaixonados por pizzas e agora estamos trabalhando com aquilo que mais gostamos. Buscamos os melhores sabores sempre com muita qualidade.
+
+[AQUI ENTRA IMAGEM SOBRE A EMPRESA]
+
+[AQUI ENTRA IMAGEM FRETE GRATIS]
+
+[clock]
+Na Hora
+
+[heart]
+Qualidade garantida
+
+[star]
+Chefes de Primeira
+
+[laugh-beam]
+Sabor Inconfundivel
+
+[FIM NOSSA HISTORIA]
+
+-------------------------
+[INICIO INSCREVA-SE]
+
+INSCREVA-SE PARA RECEBER
+
+PROMOÇÕES E NOVIDADES!
+
+[FORMULÁRIO INPUT COM E-Mail]
+Inscrever
+
+[FIM INSCREVA-SE]
+
+-------------------------
+[INICIO RODAPE]
+[AQUI ENTRA IMAGEM DE GALERIA]
+
+© 1972-2019 | Todos os direitos reservados
+É proibida a reprodução total ou parcial de qualquer conteúdo deste site.
+
+[FIM RODAPE]

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzacavanis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="conteudo">
+            <div id="cabecalho">
+                <!----------------------------->
+                <!--[INICIO MENU]-->
+
+                <img src="imagens/logo.png" alt="Logo pizzacavanis"/>
+
+                <ul>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#historia">Nossa História</a></li>
+                    <li><a href="#inscrever">Inscreva-se</a></li>
+                </ul>  
+                <div id="pedido">
+                    <span>Faça um pedido</span>
+                    <h1>(93) 3518-5544</h1>
+                </div>
+                <!--[FIM MENU]-->
+            </div>
+            <div id="slideshow">
+                <!----------------------------->
+                <!--[INICIO SLIDE]-->
+
+                <div class="slide fade">
+                    <div class="numeroslide">1/3</div>
+                    <img src="imagens/slide/slide-01.png" alt="Slide">
+                </div>
+                <div class="slide fade">
+                    <div class="numeroslide">2/3</div>
+                    <img src="imagens/slide/slide-02.png" alt="Slide">
+                </div>
+                <div class="slide fade">
+                    <div class="numeroslide">3/3</div>
+                    <img src="imagens/slide/slide-03.png" alt="Slide">
+                </div>
+                <!--[FIM SLIDE]-->
+            </div>
+            <div id="cardapio">
+                <!----------------------------->
+                <!-- [INICIO CARDAPIO]-->
+                <div class="opcoes">
+                    <div class="opcoes-cardapio">
+                        <span onclick="showOpcoes('comum')">
+                            <i class="fa fa-check-circle"></i><br>
+                            Comum
+                        </span>
+                    </div>
+                    <div class="opcoes-cardapio">
+                        <span onclick="showOpcoes('premium')">
+                            <i class="fa fa-check-circle"></i><br>
+                            Premium
+                        </span>
+                    </div>
+                    <div class="opcoes-cardapio">
+                        <span onclick="showOpcoes('supreme')">
+                            <i class="fa fa-check-circle"></i><br>
+                            Supreme
+                        </span>
+                    </div>
+                </div>
+
+                <figure class="comum fade">
+                    <img src="imagens/comum-mussarela.jpg" alt="Pizza Mussarela">
+                    <figcaption>
+                        <h3>Mussarela</h3>
+                        <p>Molho de tomate, mussarela e cebola</p>
+                        <h2>R$ 30,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="comum fade">
+                    <img src="imagens/comum-calabresa.jpg" alt="Pizza Mussarela">
+                    <figcaption>
+                        <h3>Calabresa</h3>
+                        <p>Molho de tomate, mussarela, calabresa e cebola</p>
+                        <h2>R$ 30,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="comum fade">
+                    <img src="imagens/comum-pepperoni.jpg" alt="Pizza Mussarela">
+                    <figcaption>
+                        <h3>Pepperoni</h3>
+                        <p>Molho de tomate, mussarela e pepperoni</p>
+                        <h2>R$ 30,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="premium fade">
+                    <img src="imagens/premium-portuguesa.jpg" alt="Pizza Portuguesa">
+                    <figcaption>
+                        <h3>Portuguesa</h3>
+                        <p>Molho de tomate e mussarela, ovos, pimentão e azeitona</p>
+                        <h2>R$ 36,00</h2>
+                    </figcaption>
+                </figure>
+
+
+                <figure class="premium fade">
+                    <img src="imagens/premium-estrogonofe.jpg" alt="Pizza Estrogonofe">
+                    <figcaption>
+                        <h3>Estrogonofe</h3>
+                        <p>Molho de tomate, mussarela, carne, estrogonofe e batata</p>
+                        <h2>R$ 36,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="premium fade">
+                    <img src="imagens/premium-atum.jpg" alt="Pizza Atum">
+                    <figcaption>
+                        <h3>Atum</h3>
+                        <p>Molho de tomate, mussarela, atum, azeitona e cebola</p>
+                        <h2>R$ 36,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="supreme fade">
+                    <img src="imagens/supreme-primavera.jpg" alt="Pizza Primavera">
+                    <figcaption>
+                        <h3>Primavera</h3>
+                        <p>Molho de tomate, milho, pimentão e  azeitona</p>
+                        <h2>R$ 42,00</h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="supreme fade">
+                    <img src="imagens/supreme-quatro-queijos.jpg" alt="Pizza Quatro Queijos">
+                    <figcaption>
+                        <h3>Quatro Queijos</h3>
+                        <p>Molho de tomate,  queijos e tomate</p>
+                        <h2>R$ 42,00</h2>
+                    </figcaption>
+                </figure>
+
+
+                <figure class="supreme fade">
+                    <img src="imagens/supreme-chocolate.jpg" alt="Pizza Chocolate">
+                    <figcaption>
+                        <h3>Chocolate</h3>
+                        <p>Calda de chocolate, morango e corbeturas de chocolate</p>
+                        <h2>R$ 42,00</h2>
+                    </figcaption>
+                </figure>
+
+                <!--[FIM CARDAPIO]-->
+            </div>
+            <article id="historia">
+                <!--[INICIO NOSSA HISTÓRIA]-->
+                <div class="sobre">
+                    <h2> Nossa <span>História</span></h2>
+
+                    <p>
+                        Somos uma empresa familiar de primeira geração criada em 1972.  Descendentes de Italianos, sempres fomos apaixonados por pizzas e agora estamos trabalhando com aquilo que mais gostamos. Buscamos os melhores sabores sempre com muita qualidade.
+                    </p>
+                    <img src="imagens/sobre-a-empresa.png" alt="fotos da empresa" >
+                </div>
+
+
+                <img src="imagens/banner-entrega-gratis.png" alt="anuncio" class="img-anuncio">
+                <div class="qualidade">
+                    <span>
+                        <i class="far fa-clock fa-4x"></i>
+                        Na Hora</span>
+
+                    <span> 
+                        <i class="far fa-heart fa-4x"></i>
+                        Qualidade garantida</span>
+
+                    <span>
+                        <i class="far fa-star fa-4x"></i>
+                        Chefes de Primeira</span>
+
+                    <span> 
+                        <i class="fas fa-child fa-4x"></i>
+                        Sabor Inconfundivel</span>
+
+                </div>
+                <!--[FIM NOSSA HISTORIA]-->
+            </article>
+
+            <article id="inscrever">
+                <!--[INICIO INSCREVA-SE]-->
+
+                <h4>INSCREVA-SE PARA RECEBER</h4>
+
+                <h1>PROMOÇÕES E NOVIDADES!</h1>
+
+                <form action="validar-form.php" method="GET">
+                    <input type="text" placeholder="E-mail" name="email"/>
+                    <button type="submit">Inscrever</button>
+                </form>
+
+                <!--[FIM INSCREVA-SE]-->
+            </article>
+
+            <article id="rodape">
+                <!--[INICIO RODAPE]-->
+                <img src="imagens/banner-galeria-rodape.png" alt="galeria rodape">
+                <footer>
+                    <p>© 1972-2019 | Todos os direitos reservados <br/>
+                        É proibida a reprodução total ou parcial de qualquer conteúdo deste site.</p>
+                </footer>
+                <!--[FIM RODAPE]-->
+            </article>
+        </div>
+
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </body>
+</html>

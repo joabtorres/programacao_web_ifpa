@@ -1,0 +1,291 @@
+/*
+        Cores:
+        Fundo vermelho: #c10a28;
+        Fundo cinza: #f2f2f2;
+        Texto Amarelo: #f9fb6b
+        Texto descritivo: #666;
+        Texto Titulo: #444;
+        Texto Titulo Destaque: #222;
+        
+*/
+@font-face{
+    font-family: "ubuntu-regular";
+    src: url(../fonts/ubuntu-regular.ttf);
+}
+@font-face{
+    font-family: "ranga-regular";
+    src: url(../fonts/ranga-regular.ttf);
+}
+@font-face{
+    font-family: "ranga-bold";
+    src: url(../fonts/ranga-bold.ttf);
+}
+.ocultar{
+    display: none!important;
+}
+.exibir{
+    display: inline-block!important;
+}
+* {
+    font-family: "ubuntu-regular";
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "ranga-bold";
+}
+body{
+    background: url(../imagens/fundo.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+#conteudo{
+    width: 1024px;
+    background: white;
+    display: block;
+    margin: auto;
+    border-left: 2px solid #000;
+    border-right:2px solid #000;
+    box-shadow:  0px 0px 10px #000;
+}
+/*cabecalho */
+#cabecalho{
+    background-color: #c10a28;
+    color: white;
+    padding: 20px 30px 0px 30px
+}
+#cabecalho ul{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+#cabecalho ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#cabecalho ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#pedido{
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    top: -15px;
+    text-align: center;
+}
+#pedido span{
+    color: #f9fb6b;
+}
+#pedido h1{
+    margin: 0;
+    font-family: "ranga-regular";
+}
+/*slide*/
+#slideshow{
+    max-width: 100%;
+    position: relative;
+    margin-bottom: -5px;
+}
+#slideshow img{
+    width: 100%;
+}
+#slideshow .slide{
+    display: none;
+}
+#slideshow .slide img{
+    vertical-align: middle;
+    width: 100%;
+}
+#slideshow .slide .numeroslide{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/*animacao*/
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+/*cardapio*/
+#cardapio{
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+#cardapio .opcoes{
+    padding: 30px;
+    background-color: #c10a28;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#cardapio .opcoes .opcoes-cardapio{
+    display: inline-block;
+    width: 32%; 
+}
+.opcoes-cardapio span{
+    font-family: "ranga-bold";
+    color: #cecece;
+    cursor: pointer;
+}
+.opcoes-cardapio span:hover{
+    color: white;
+}
+#cardapio figure{
+    display: inline-block;
+    width: 256px;
+    text-align: center;
+}
+#cardapio figure h3{
+    font-family: "ranga-regular";
+    margin: 0;
+    color: #444;
+}
+#cardapio figure p{
+    margin: 5px;
+    color:#666;
+}
+#cardapio figure h2{
+    margin: 0;
+    color: #333;
+}
+#cardapio figure img{
+    width: 100%;
+    display: block;
+    margin: 0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: .5s all;
+}
+#cardapio figure img:hover{
+    transform: scale(1.05);
+}
+/*historia*/ 
+#historia{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#historia .sobre{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#historia .sobre h2{
+    text-transform: uppercase;
+    color: #444;
+    font-family: "ranga-regular";
+    margin-bottom: 5px;
+}
+#historia .sobre h2 span{
+    display: block;
+    font-family: "ranga-bold";
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: -10px;
+    color: #222;
+}
+#historia .sobre p{
+    display: inline-block;
+    width: 300px;
+    text-align: justify;
+    color: #666;
+}
+#historia .sobre img{
+    float:  right;
+    position: relative;
+    top: -70px;
+    right: 100px;
+}
+#historia .img-anuncio{
+    width: 100%;
+}
+#historia .qualidade{
+    width: 750px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#historia .qualidade span{
+    display: inline-block;
+    width: 24%;
+    color: #444;
+}
+#historia .qualidade span i{
+    display: block;
+    margin-bottom: 10px;
+}
+/*inscrever*/
+#inscrever{
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#inscrever h4{
+    color: #666;
+    font-family: "ranga-regular";
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#inscrever h1{
+    color: #222;
+    margin-top: 0px;
+}
+#inscrever input[type="text"]{
+    background: none;   
+    font-family: "ubuntu-regular";
+    padding: 10px;
+    width: 350px;
+    border: 2px solid #666;
+    transition: .5s all
+}
+#inscrever input[type="text"]:focus{
+    border-radius: 10px;
+    color: #333;
+    border: 2px solid #333;
+}
+#inscrever button{
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid #c10a28;
+    color: #c10a28;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s all
+}
+#inscrever button:hover{
+    border-radius: 10px;
+    color: #333;
+    border: 2px solid #333;
+}
+/*rodape*/
+#rodape{
+    background: #444;
+    color: white;
+    clear: both;
+}
+#rodape img{
+    width: 100%;
+}
+#rodape footer{
+    display: block;
+    padding: 10px 0;
+}
+#rodape footer p{
+    text-align: center;
+}
